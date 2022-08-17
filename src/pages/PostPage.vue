@@ -4,7 +4,6 @@
     <my-input 
       v-model="searchQuery"
       placeholder="Пошук..."
-      v-focus
     />
     <div class="app__btns">
       <my-button @click="fetchPosts">Отримати пости</my-button>

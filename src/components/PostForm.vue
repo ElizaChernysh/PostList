@@ -2,7 +2,7 @@
   <div>
     <form @submit.prevent>
       <h3 style="margin-bottom: 15px">Створити пост</h3>
-      <my-input v-focus v-model="post.title" type="text" placeholder="Назва" />
+      <my-input v-model="post.title" type="text" placeholder="Назва" />
       <my-input v-model="post.body" type="text" placeholder="Опис" />
       <my-button style="align-self: flex-end" @click="createPost">
         Додати
