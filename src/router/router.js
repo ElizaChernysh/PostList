@@ -7,21 +7,25 @@ import {createRouter, createWebHistory} from "vue-router";
 const routes = [
   {
     path: '/',
+    redirect: { name: 'Main'}
+  },
+  {
+    path: '/PostList/',
     component: Main
   },
   {
-    path: '/posts',
+    path: '/PostList/posts',
     component: PostPage,
+  },
+  {
+    path: '/PostList/posts/:id',
+    component: PostIdPage,
+    props: true
   },
   {
     path: '/about',
     component: About,
-  },
-  {
-    path: '/posts/:id',
-    component: PostIdPage,
   }
-  
 ]
 
 const router = createRouter({

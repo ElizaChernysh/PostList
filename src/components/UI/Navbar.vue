@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <div class="navbar">
-    <div @click="$router.push('/')">Пости</div>
+    <div @click="$router.push('/')">Сторінка з постами</div>
     <div class="navbar__btns">
       <my-button @click="$router.push('/posts')" style="margin-right: 10px">Пости</my-button>
       <my-button @click="$router.push('/about')">Про сайт</my-button>

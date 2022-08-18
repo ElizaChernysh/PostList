@@ -3,9 +3,9 @@ module.exports = {
     ? '/PostList/'
     : '/',
   
-    pwa: {
-      workboxOptions: {
-        exclude: [/_redirects/]
-      }
-    }
+    // pwa: {
+    //   workboxOptions: {
+    //     exclude: [/_redirects/]
+    //   }
+    // }
 }
